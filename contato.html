@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>DENUNCIA</title>
+</head>
+  <body>
+    <h1 class="de">ATENDIMENTO AO CLIENTE</h1>
+    <form
+      action="https://formsubmit.co/balduinostore@gmail.com"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Nome</label>
+      <input type="text" name="Nome" id="name" placeholder="NOME(OPCIONAL)"/>
+      <label for="email">E-mail</label>
+      <input type="email" name="E-mail" id="email" placeholder="EMAIL(OPCIONAL)" />
+      <label for="message">Mensagem</label>
+      <textarea name="Mensagem" id="Mensagem" placeholder="Mensagem(OBRIGATÓRIO)" required></textarea>
+      
+      <input
+        type="hidden"
+        name="_next"
+        value="http://127.0.0.1:5501/feita.html"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background-color: yellow;
+}
+header{
+    padding: 50px;
+    background-color: rgb(255, 230, 0);
+}
+.logo{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 60%;
+    padding: 20px 150px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.menu:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px 5px rgb(255, 230, 0);
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    border-radius: 15px;
+}
+.prd{
+    margin: 0 auto;
+    margin-left: 250px;
+    padding: 30px;
+}

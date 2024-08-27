@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(44, 4, 71);
+}
+header{
+    padding: 50px;
+    background-color: blueviolet;
+}
+.logo{
+    position: absolute;
+}
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 60%;
+    padding: 20px 150px;
+    background-color: rgb(214, 0, 214);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.menu:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px 5px rgb(183, 0, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    border-radius: 15px;
+}
+.banner{
+    margin-left: 0%;
+}
+.prd{
+    margin: 0 auto;
+    margin-left: 30px;
+    padding: 30px;
+}
